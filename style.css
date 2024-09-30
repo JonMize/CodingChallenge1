@@ -6,7 +6,7 @@ body {
 .hover{
   width: 300px;
   height: auto;
-  transition: transform 0.5s ease;
+  transition: box-shadow transform 0.5s ease;
 }
 
 .hover-image: hover{
