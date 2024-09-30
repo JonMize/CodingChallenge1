@@ -34,7 +34,13 @@ body {
 .sun {
   height: 100px;
   width: 100px;
-  background-color: yellow;
   border-radius: 50%;
   display: inline-block;
+  background-color: yellow;
+  animation-name: blink;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {background-color: yellow;}
+  to {background-color: red;}
 }
