@@ -8,6 +8,29 @@ body {
   height: auto;
   transition: box-shadow transform 0.5s ease;
 }
+.background{
+  z-index: 1;
+  background-repeat: fill;
+}
+.hat{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+}
+.person{
+  z-index: 2;
+}
 
 .hover-image: hover{
   transform: scale(1.1);
