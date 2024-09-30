@@ -2,7 +2,19 @@ body {
   margin: 0;
 }
 
+/*this is for hovering*/
+.hover{
+  width: 300px;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.hover-image: hover{
+  transform: scale(1.1);
+}
+
 /* parallax "viewport" */
+
 .parallax {
   height: 100vh;
 
@@ -31,6 +43,7 @@ body {
 .layer3 {
   transform: translateZ(-2px);
 }
+
 .sun {
   height: 100px;
   width: 100px;
