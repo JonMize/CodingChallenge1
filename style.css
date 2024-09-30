@@ -76,7 +76,3 @@ body {
   animation-name: blink;
   animation-duration: 4s;
 }
-@keyframes example {
-  from {background-color: yellow;}
-  to {background-color: red;}
-}
